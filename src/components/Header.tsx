@@ -17,6 +17,7 @@ export default function Header() {
     }, []);
 
     const navLinks = [
+        { name: "Ana Sayfa", href: "/" },
         { name: "Kurumsal", href: "/kurumsal" },
         { name: "Uzmanlık Alanları", href: "/uzmanlik-alanlarimiz" },
         { name: "Projeler", href: "/projelerimiz" },

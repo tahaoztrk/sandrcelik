@@ -45,16 +45,16 @@ export default function Hero() {
                     </p>
 
                     {/* Modernized Buttons */}
-                    <div className="flex flex-wrap gap-4">
+                    <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto">
                         <Link
                             href="/projelerimiz"
-                            className="group flex items-center gap-3 px-8 py-4 bg-[#162660] text-white text-sm font-bold uppercase tracking-wider rounded-lg hover:bg-[#24388a] transition-all hover:shadow-xl hover:shadow-[#162660]/20 hover:-translate-y-0.5"
+                            className="group flex items-center justify-center md:justify-start gap-3 px-8 py-4 bg-[#162660] text-white text-sm font-bold uppercase tracking-wider rounded-lg hover:bg-[#24388a] transition-all hover:shadow-xl hover:shadow-[#162660]/20 hover:-translate-y-0.5 w-full md:w-auto text-center"
                         >
                             Projelerimiz <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                         </Link>
                         <Link
                             href="/iletisim"
-                            className="flex items-center gap-3 px-8 py-4 bg-transparent border border-[#162660]/30 text-[#162660] text-sm font-bold uppercase tracking-wider rounded-lg hover:bg-white hover:border-transparent hover:shadow-lg transition-all"
+                            className="flex items-center justify-center md:justify-start gap-3 px-8 py-4 bg-transparent border border-[#162660]/30 text-[#162660] text-sm font-bold uppercase tracking-wider rounded-lg hover:bg-white hover:border-transparent hover:shadow-lg transition-all w-full md:w-auto text-center"
                         >
                             İletişime Geçin
                         </Link>
