@@ -1,56 +1,59 @@
 "use client";
 
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-import Link from "next/link";
-
-const expertiseAreas = [
-    {
-        id: "01",
-        title: "Endüstriyel Yapılar",
-        subtitle: "FABRİKA & HANGAR",
-        description: "Sanayi dünyasının ihtiyaç duyduğu devasa hacimler. Kolonsuz geniş açıklıklar, yüksek tavanlar ve ağır yük kapasiteli zeminler. Üretiminizin kesintisiz devam etmesi için en güçlü çelik iskeleti kuruyoruz.",
-        features: ["Ağır Çelik Konstrüksiyon", "Vinç Yolu Entegrasyonu", "Yangına Dayanıklı Kaplama"],
-        image: "/factory-hangar.png",
-        color: "bg-[#162660]",
-        textColor: "text-white",
-        tickColor: "text-white"
-    },
-    {
-        id: "02",
-        title: "Lüks Yaşam Alanları",
-        subtitle: "ÇELİK VİLLA & KONUT",
-        description: "Betonun soğukluğundan uzak, doğayla barışık ve depreme karşı yenilmez. Modern mimarinin en ince detaylarını hafif çelik teknolojisiyle işliyor, size sadece anahtarı çevirmeyi bırakıyoruz.",
-        features: ["A++ Enerji Verimliliği", "Hızlı Kurulum (90 Gün)", "Modern & Minimalist Tasarım"],
-        image: "/steel-villa.png",
-        color: "bg-[#F3F4F6]",
-        textColor: "text-[#162660]",
-        tickColor: "text-[#162660]"
-    },
-    {
-        id: "03",
-        title: "Konstrüksiyon Sistemleri",
-        subtitle: "ÇELİK ÇATI & DETAY",
-        description: "Bir yapının imzası çatısıdır. Sızdırmazlık garantili kenet sistemler, estetik uzay kafesler ve geniş sundurmalar. Mevcut binanızı koruyor ve değer katıyoruz.",
-        features: ["Titanyum Çinko Kaplama", "Eksiz Oluk Sistemleri", "Ömür Boyu Sızdırmazlık"],
-        image: "/steel-roof.png",
-        color: "bg-[#2A3441]",
-        textColor: "text-white",
-        tickColor: "text-white"
-    },
-    {
-        id: "04",
-        title: "Mühendislik & Proje",
-        subtitle: "ANALİZ & MODELLEME",
-        description: "Sahaya inmeden önce her şeyi sanal ortamda inşa ediyoruz. SAP2000 ve Tekla Structures ile milimetrik statik analizler yapıyor, sürprizlere yer bırakmıyoruz.",
-        features: ["3D BIM Modelleme", "Eurocode Standartları", "Ruhsat ve Uygulama Projeleri"],
-        image: "/hero-bg.png",
-        color: "bg-[#EAEAEA]",
-        textColor: "text-[#162660]",
-        tickColor: "text-[#162660]"
-    }
-];
+import { Link } from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 export default function ExpertisePage() {
+    const t = useTranslations('ExpertisePage');
+
+    const expertiseAreas = [
+        {
+            id: "01",
+            title: t('items.industrial.title'),
+            subtitle: t('items.industrial.subtitle'),
+            description: t('items.industrial.description'),
+            features: [t('items.industrial.features.0'), t('items.industrial.features.1'), t('items.industrial.features.2')],
+            image: "/factory-hangar.png",
+            color: "bg-[#162660]",
+            textColor: "text-white",
+            tickColor: "text-white"
+        },
+        {
+            id: "02",
+            title: t('items.luxury.title'),
+            subtitle: t('items.luxury.subtitle'),
+            description: t('items.luxury.description'),
+            features: [t('items.luxury.features.0'), t('items.luxury.features.1'), t('items.luxury.features.2')],
+            image: "/steel-villa.png",
+            color: "bg-[#F3F4F6]",
+            textColor: "text-[#162660]",
+            tickColor: "text-[#162660]"
+        },
+        {
+            id: "03",
+            title: t('items.construction.title'),
+            subtitle: t('items.construction.subtitle'),
+            description: t('items.construction.description'),
+            features: [t('items.construction.features.0'), t('items.construction.features.1'), t('items.construction.features.2')],
+            image: "/steel-roof.png",
+            color: "bg-[#2A3441]",
+            textColor: "text-white",
+            tickColor: "text-white"
+        },
+        {
+            id: "04",
+            title: t('items.engineering.title'),
+            subtitle: t('items.engineering.subtitle'),
+            description: t('items.engineering.description'),
+            features: [t('items.engineering.features.0'), t('items.engineering.features.1'), t('items.engineering.features.2')],
+            image: "/hero-bg.png",
+            color: "bg-[#EAEAEA]",
+            textColor: "text-[#162660]",
+            tickColor: "text-[#162660]"
+        }
+    ];
+
     return (
         <main className="min-h-screen bg-white">
 
@@ -58,12 +61,12 @@ export default function ExpertisePage() {
             <section className="pt-40 pb-16 px-6 bg-white">
                 <div className="container mx-auto text-center">
                     <h1 className="text-4xl md:text-6xl text-[#162660] tracking-tight mb-6 relative inline-block">
-                        <span className="font-sans font-black tracking-tighter">UZMANLIK</span>{" "}
-                        <span className="font-sans font-light tracking-widest text-[#162660]/80">ALANLARIMIZ</span>
+                        <span className="font-sans font-black tracking-tighter">{t('titlePrefix')}</span>{" "}
+                        <span className="font-sans font-light tracking-widest text-[#162660]/80">{t('titleSuffix')}</span>
                         <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#F59E0B] to-transparent mt-4 opacity-50"></div>
                     </h1>
                     <p className="max-w-xl mx-auto text-[#162660]/70 text-sm md:text-base font-medium leading-relaxed mt-6">
-                        Yenilikçi mühendislik çözümleriyle yapılarınıza güç ve estetik katıyoruz.
+                        {t('description')}
                     </p>
                 </div>
             </section>
@@ -108,7 +111,7 @@ export default function ExpertisePage() {
                                             : 'border-[#162660]/30 bg-[#162660]/5 hover:bg-[#162660] hover:text-white'
                                             }`}
                                     >
-                                        Detaylı Bilgi <ArrowRight size={16} />
+                                        {t('moreInfo')} <ArrowRight size={16} />
                                     </Link>
                                 </div>
 

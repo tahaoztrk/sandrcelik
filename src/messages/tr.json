@@ -1,0 +1,145 @@
+{
+    "Header": {
+        "home": "Ana Sayfa",
+        "corporate": "Kurumsal",
+        "expertise": "Uzmanlık Alanları",
+        "projects": "Projeler",
+        "contact": "İletişim",
+        "steel": "Çelik",
+        "structure": "Yapı",
+        "getQuote": "Teklif Al"
+    },
+    "Hero": {
+        "industrialExcellence": "Endüstriyel Mükemmellik • Türkiye",
+        "titleLine1": "SANDR",
+        "titleLine2": "ÇELİK YAPI",
+        "description1": "Sandr Çelik olarak, endüstriyel ve konut projelerinde uluslararası standartlarda, sürdürülebilir çelik yapılar inşa ediyoruz.",
+        "description2": "Mühendislik deneyimimizle Kocaeli ve tüm Türkiye'de çözüm ortağınızız.",
+        "viewProjects": "Projelerimiz",
+        "contactUs": "İletişime Geçin",
+        "globalStandards": "Global Standartlar",
+        "advancedEngineering": "İleri Mühendislik",
+        "steelConstruction": "Çelik Konstrüksiyon"
+    },
+    "Services": {
+        "sectionTitle": "Uzmanlık Alanlarımız",
+        "headingLine1": "Geleceği İnşa Eden",
+        "headingLine2": "Kusursuz Çözümler.",
+        "items": {
+            "villa": {
+                "title": "Çelik Bina & Villa",
+                "description": "Modern mimarinin estetik ve dayanıklılıkla buluştuğu çelik konstrüksiyon lüks yaşam alanları."
+            },
+            "hangar": {
+                "title": "Hangar & Fabrika",
+                "description": "Endüstriyel ihtiyaçlara özel, geniş açıklıklı ve yüksek mukavemetli çelik üretim tesisleri."
+            },
+            "warehouse": {
+                "title": "Depo & Antrepo",
+                "description": "Lojistik operasyonlarınızı optimize eden, güvenli ve ölçeklenebilir çelik depolama çözümleri."
+            },
+            "roof": {
+                "title": "Çelik Çatı & Yapısal Detaylar",
+                "description": "Sundurma, asma kat ve çelik çatı sistemlerinde mühendislik harikası çözümler."
+            }
+        }
+    },
+    "ExpertisePage": {
+        "titlePrefix": "UZMANLIK",
+        "titleSuffix": "ALANLARIMIZ",
+        "description": "Yenilikçi mühendislik çözümleriyle yapılarınıza güç ve estetik katıyoruz.",
+        "items": {
+            "industrial": {
+                "title": "Endüstriyel Yapılar",
+                "subtitle": "FABRİKA & HANGAR",
+                "description": "Sanayi dünyasının ihtiyaç duyduğu devasa hacimler. Kolonsuz geniş açıklıklar, yüksek tavanlar ve ağır yük kapasiteli zeminler. Üretiminizin kesintisiz devam etmesi için en güçlü çelik iskeleti kuruyoruz.",
+                "features": {
+                    "0": "Ağır Çelik Konstrüksiyon",
+                    "1": "Vinç Yolu Entegrasyonu",
+                    "2": "Yangına Dayanıklı Kaplama"
+                }
+            },
+            "luxury": {
+                "title": "Lüks Yaşam Alanları",
+                "subtitle": "ÇELİK VİLLA & KONUT",
+                "description": "Betonun soğukluğundan uzak, doğayla barışık ve depreme karşı yenilmez. Modern mimarinin en ince detaylarını hafif çelik teknolojisiyle işliyor, size sadece anahtarı çevirmeyi bırakıyoruz.",
+                "features": {
+                    "0": "A++ Enerji Verimliliği",
+                    "1": "Hızlı Kurulum (90 Gün)",
+                    "2": "Modern & Minimalist Tasarım"
+                }
+            },
+            "construction": {
+                "title": "Konstrüksiyon Sistemleri",
+                "subtitle": "ÇELİK ÇATI & DETAY",
+                "description": "Bir yapının imzası çatısıdır. Sızdırmazlık garantili kenet sistemler, estetik uzay kafesler ve geniş sundurmalar. Mevcut binanızı koruyor ve değer katıyoruz.",
+                "features": {
+                    "0": "Titanyum Çinko Kaplama",
+                    "1": "Eksiz Oluk Sistemleri",
+                    "2": "Ömür Boyu Sızdırmazlık"
+                }
+            },
+            "engineering": {
+                "title": "Mühendislik & Proje",
+                "subtitle": "ANALİZ & MODELLEME",
+                "description": "Sahaya inmeden önce her şeyi sanal ortamda inşa ediyoruz. SAP2000 ve Tekla Structures ile milimetrik statik analizler yapıyor, sürprizlere yer bırakmıyoruz.",
+                "features": {
+                    "0": "3D BIM Modelleme",
+                    "1": "Eurocode Standartları",
+                    "2": "Ruhsat ve Uygulama Projeleri"
+                }
+            }
+        },
+        "moreInfo": "Detaylı Bilgi"
+    },
+    "CorporatePage": {
+        "title": "KURUMSAL",
+        "description": "Sayfa yapım aşamasındadır. Yakında şirket tarihçesi ve vizyonumuz burada yer alacaktır."
+    },
+    "ProjectsPage": {
+        "title": "PROJELERİMİZ",
+        "description": "Sayfa yapım aşamasındadır. Tamamlanan seçkin referanslarımız çok yakında eklenecektir."
+    },
+    "ContactPage": {
+        "title": "Bize Ulaşın",
+        "subtitle": "Geleceğin yapılarını birlikte inşa edelim. Projeniz için profesyonel destek almak üzere bizimle iletişime geçin.",
+        "form": {
+            "name": "Adınız Soyadınız",
+            "email": "E-posta Adresi",
+            "phone": "Telefon Numarası",
+            "subject": "Konu",
+            "message": "Nasıl yardımcı olabiliriz?",
+            "submit": "Mesajı Gönder",
+            "submitting": "Gönderiliyor...",
+            "success": "Mesajınız başarıyla iletildi!",
+            "selectSubject": "Konu Seçiniz",
+            "subjects": {
+                "general": "Genel Bilgi",
+                "project": "Proje Teklifi",
+                "other": "Diğer"
+            }
+        },
+        "info": {
+            "address": {
+                "title": "Merkez Ofis",
+                "value": "Kocaeli, Türkiye"
+            },
+            "phone": {
+                "title": "Telefon",
+                "value": "+90 (555) 000 00 00"
+            },
+            "email": {
+                "title": "E-posta",
+                "value": "info@sandrcelik.com"
+            },
+            "workingHours": {
+                "title": "Çalışma Saatleri",
+                "value": "Pzt - Cmt: 09:00 - 18:00"
+            }
+        }
+    },
+    "NotFound": {
+        "title": "Sayfa Bulunamadı",
+        "description": "Aradığınız sayfayı bulamadık."
+    }
+}

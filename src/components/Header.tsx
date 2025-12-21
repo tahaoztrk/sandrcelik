@@ -1,10 +1,14 @@
 "use client";
-
-import Link from "next/link";
+import { Link, usePathname, useRouter } from "@/i18n/routing";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function Header() {
+    const t = useTranslations('Header');
+    const locale = useLocale();
+    const router = useRouter();
+    const pathname = usePathname();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
@@ -16,12 +20,16 @@ export default function Header() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    const changeLanguage = (nextLocale: string) => {
+        router.replace(pathname, { locale: nextLocale });
+    };
+
     const navLinks = [
-        { name: "Ana Sayfa", href: "/" },
-        { name: "Kurumsal", href: "/kurumsal" },
-        { name: "Uzmanlık Alanları", href: "/uzmanlik-alanlarimiz" },
-        { name: "Projeler", href: "/projelerimiz" },
-        { name: "İletişim", href: "/iletisim" },
+        { name: t('home'), href: "/" },
+        { name: t('corporate'), href: "/kurumsal" },
+        { name: t('expertise'), href: "/uzmanlik-alanlarimiz" },
+        { name: t('projects'), href: "/projelerimiz" },
+        { name: t('contact'), href: "/iletisim" },
     ];
 
     return (
@@ -44,8 +52,8 @@ export default function Header() {
                         </span>
                         <div className="h-6 w-[2px] bg-[#162660]/10 rotate-[15deg] mx-1 group-hover:rotate-[30deg] transition-transform"></div>
                         <div className="flex flex-col justify-center">
-                            <span className="text-[16px] font-bold text-[#162660]/80 leading-none tracking-widest uppercase">Çelik</span>
-                            <span className="text-[16px] font-bold text-[#F59E0B] leading-none tracking-widest uppercase">Yapı</span>
+                            <span className="text-[16px] font-bold text-[#162660]/80 leading-none tracking-widest uppercase">{t('steel')}</span>
+                            <span className="text-[16px] font-bold text-[#F59E0B] leading-none tracking-widest uppercase">{t('structure')}</span>
                         </div>
                     </Link>
 
@@ -64,12 +72,29 @@ export default function Header() {
 
                     {/* Action Area */}
                     <div className="flex items-center gap-4">
+                        {/* Language Switcher */}
+                        <div className="flex items-center gap-1 md:gap-2 mr-1">
+                            <button
+                                onClick={() => changeLanguage('tr')}
+                                className={`text-xs font-bold transition-colors ${locale === 'tr' ? 'text-[#162660]' : 'text-[#162660]/40 hover:text-[#162660]/70'}`}
+                            >
+                                TR
+                            </button>
+                            <span className="text-[#162660]/20 text-xs">|</span>
+                            <button
+                                onClick={() => changeLanguage('en')}
+                                className={`text-xs font-bold transition-colors ${locale === 'en' ? 'text-[#162660]' : 'text-[#162660]/40 hover:text-[#162660]/70'}`}
+                            >
+                                EN
+                            </button>
+                        </div>
+
                         <Link
                             href="/iletisim"
                             className={`hidden md:flex items-center gap-2 bg-[#162660] text-white px-6 py-3 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-[#24388a] transition-all hover:scale-105 active:scale-95 ${scrolled ? "shadow-none" : "shadow-xl shadow-[#162660]/20"
                                 }`}
                         >
-                            <span>Teklif Al</span>
+                            <span>{t('getQuote')}</span>
                             <ArrowRight size={14} />
                         </Link>
 

@@ -1,0 +1,145 @@
+{
+    "Header": {
+        "home": "Home",
+        "corporate": "Corporate",
+        "expertise": "Expertise",
+        "projects": "Projects",
+        "contact": "Contact",
+        "steel": "Steel",
+        "structure": "Structure",
+        "getQuote": "Get Quote"
+    },
+    "Hero": {
+        "industrialExcellence": "Industrial Excellence • Turkey",
+        "titleLine1": "SANDR",
+        "titleLine2": "STEEL STRUCTURE",
+        "description1": "As Sandr Steel, we build sustainable steel structures at international standards in industrial and residential projects.",
+        "description2": "We are your solution partner in Kocaeli and all over Turkey with our engineering experience.",
+        "viewProjects": "Our Projects",
+        "contactUs": "Contact Us",
+        "globalStandards": "Global Standards",
+        "advancedEngineering": "Advanced Engineering",
+        "steelConstruction": "Steel Construction"
+    },
+    "Services": {
+        "sectionTitle": "Our Expertise",
+        "headingLine1": "Building the Future",
+        "headingLine2": "Perfect Solutions.",
+        "items": {
+            "villa": {
+                "title": "Steel Building & Villa",
+                "description": "Luxurious living spaces constructed with steel, where modern architecture meets aesthetics and durability."
+            },
+            "hangar": {
+                "title": "Hangar & Factory",
+                "description": "Wide-span and high-strength steel production facilities tailored to industrial needs."
+            },
+            "warehouse": {
+                "title": "Warehouse & Storage",
+                "description": "Secure and scalable steel storage solutions that optimize your logistics operations."
+            },
+            "roof": {
+                "title": "Steel Roof & Structural Details",
+                "description": "Engineering marvel solutions in porch, mezzanine, and steel roof systems."
+            }
+        }
+    },
+    "ExpertisePage": {
+        "titlePrefix": "OUR",
+        "titleSuffix": "EXPERTISE",
+        "description": "We add strength and aesthetics to your structures with innovative engineering solutions.",
+        "items": {
+            "industrial": {
+                "title": "Industrial Structures",
+                "subtitle": "FACTORY & HANGAR",
+                "description": "Massive volumes required by the industrial world. Column-free wide spans, high ceilings, and heavy load-bearing floors. We build the strongest steel skeleton for your production to continue uninterrupted.",
+                "features": {
+                    "0": "Heavy Steel Construction",
+                    "1": "Crane Runway Integration",
+                    "2": "Fire Resistant Coating"
+                }
+            },
+            "luxury": {
+                "title": "Luxury Living Spaces",
+                "subtitle": "STEEL VILLA & RESIDENCE",
+                "description": "Far from the coldness of concrete, at peace with nature, and invincible against earthquakes. We process the finest details of modern architecture with light steel technology, leaving you only to turn the key.",
+                "features": {
+                    "0": "A++ Energy Efficiency",
+                    "1": "Fast Installation (90 Days)",
+                    "2": "Modern & Minimalist Design"
+                }
+            },
+            "construction": {
+                "title": "Construction Systems",
+                "subtitle": "STEEL ROOF & DETAIL",
+                "description": "The signature of a building is its roof. Leak-proof standing seam systems, aesthetic space frames, and wide porches. We protect and add value to your existing building.",
+                "features": {
+                    "0": "Titanium Zinc Coating",
+                    "1": "Seamless Gutter Systems",
+                    "2": "Lifetime Sealing"
+                }
+            },
+            "engineering": {
+                "title": "Engineering & Project",
+                "subtitle": "ANALYSIS & MODELING",
+                "description": "We build everything in a virtual environment before going to the field. We perform millimetric static analyses with SAP2000 and Tekla Structures, leaving no room for surprises.",
+                "features": {
+                    "0": "3D BIM Modeling",
+                    "1": "Eurocode Standards",
+                    "2": "License and Application Projects"
+                }
+            }
+        },
+        "moreInfo": "More Info"
+    },
+    "CorporatePage": {
+        "title": "CORPORATE",
+        "description": "Page is under construction. Company history and vision will be available here soon."
+    },
+    "ProjectsPage": {
+        "title": "OUR PROJECTS",
+        "description": "Page is under construction. Completed selected references will be added very soon."
+    },
+    "ContactPage": {
+        "title": "Get in Touch",
+        "subtitle": "Let's build the structures of the future together. Contact us for professional support for your project.",
+        "form": {
+            "name": "Full Name",
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "subject": "Subject",
+            "message": "How can we help?",
+            "submit": "Send Message",
+            "submitting": "Sending...",
+            "success": "Message Transmitted Successfully. We'll be in orbit with you shortly.",
+            "selectSubject": "Select a Subject",
+            "subjects": {
+                "general": "General Inquiry",
+                "project": "Project Proposal",
+                "other": "Other"
+            }
+        },
+        "info": {
+            "address": {
+                "title": "Headquarters",
+                "value": "Kocaeli, Turkey"
+            },
+            "phone": {
+                "title": "Phone",
+                "value": "+90 (555) 000 00 00"
+            },
+            "email": {
+                "title": "Email",
+                "value": "info@sandrcelik.com"
+            },
+            "workingHours": {
+                "title": "Working Hours",
+                "value": "Mon - Sat: 09:00 - 18:00"
+            }
+        }
+    },
+    "NotFound": {
+        "title": "Page Not Found",
+        "description": "We could not find the page you are looking for."
+    }
+}

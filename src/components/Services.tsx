@@ -1,37 +1,40 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { ArrowRight } from "lucide-react";
-
-const services = [
-    {
-        title: "Çelik Bina & Villa",
-        description: "Modern mimarinin estetik ve dayanıklılıkla buluştuğu çelik konstrüksiyon lüks yaşam alanları.",
-        image: "/steel-villa.png",
-        link: "/uzmanlik-alanlarimiz#villa"
-    },
-    {
-        title: "Hangar & Fabrika",
-        description: "Endüstriyel ihtiyaçlara özel, geniş açıklıklı ve yüksek mukavemetli çelik üretim tesisleri.",
-        image: "/factory-hangar.png",
-        link: "/uzmanlik-alanlarimiz#fabrika"
-    },
-    {
-        title: "Depo & Antrepo",
-        description: "Lojistik operasyonlarınızı optimize eden, güvenli ve ölçeklenebilir çelik depolama çözümleri.",
-        image: "/hero-royal.png", // Using the hero image as a placeholder for warehouse if needed, or reuse factory
-        link: "/uzmanlik-alanlarimiz#depo"
-    },
-    {
-        title: "Çelik Çatı & Yapısal Detaylar",
-        description: "Sundurma, asma kat ve çelik çatı sistemlerinde mühendislik harikası çözümler.",
-        image: "/steel-roof.png",
-        link: "/uzmanlik-alanlarimiz#cati"
-    }
-];
+import { useTranslations } from "next-intl";
 
 export default function Services() {
+    const t = useTranslations('Services');
+
+    const services = [
+        {
+            title: t('items.villa.title'),
+            description: t('items.villa.description'),
+            image: "/steel-villa.png",
+            link: "/uzmanlik-alanlarimiz#villa"
+        },
+        {
+            title: t('items.hangar.title'),
+            description: t('items.hangar.description'),
+            image: "/factory-hangar.png",
+            link: "/uzmanlik-alanlarimiz#fabrika"
+        },
+        {
+            title: t('items.warehouse.title'),
+            description: t('items.warehouse.description'),
+            image: "/hero-royal.png",
+            link: "/uzmanlik-alanlarimiz#depo"
+        },
+        {
+            title: t('items.roof.title'),
+            description: t('items.roof.description'),
+            image: "/steel-roof.png",
+            link: "/uzmanlik-alanlarimiz#cati"
+        }
+    ];
+
     return (
         <section className="py-24 bg-white" id="services">
             <div className="container mx-auto px-6 md:px-12">
@@ -39,11 +42,11 @@ export default function Services() {
                 <div className="mb-20 max-w-2xl">
                     <div className="flex items-center gap-3 mb-4">
                         <span className="w-12 h-[1px] bg-[#162660]"></span>
-                        <span className="text-[#162660] uppercase tracking-widest text-xs font-bold">Uzmanlık Alanlarımız</span>
+                        <span className="text-[#162660] uppercase tracking-widest text-xs font-bold">{t('sectionTitle')}</span>
                     </div>
                     <h2 className="text-4xl md:text-5xl font-serif text-[#162660] leading-tight">
-                        Geleceği İnşa Eden <br />
-                        <span className="italic text-[#24388a]">Kusursuz Çözümler.</span>
+                        {t('headingLine1')} <br />
+                        <span className="italic text-[#24388a]">{t('headingLine2')}</span>
                     </h2>
                 </div>
 

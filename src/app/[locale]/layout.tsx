@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { Manrope, Playfair_Display } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Header from "@/components/Header";
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { notFound } from "next/navigation";
+import { routing } from '@/i18n/routing';
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -20,18 +24,31 @@ export const metadata: Metadata = {
   description: "Endüstriyel çelik yapılar, modern mimari çözümler ve mühendislik hizmetleri.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+  params
+}: {
   children: React.ReactNode;
-}>) {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  // Ensure that the incoming `locale` is valid
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
+  }
+
+  const messages = await getMessages();
+
   return (
-    <html lang="tr">
+    <html lang={locale}>
       <body
         className={`${manrope.variable} ${playfair.variable} antialiased bg-primary text-text-main`}
       >
-        <Header />
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          <Header />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
