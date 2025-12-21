@@ -23,6 +23,7 @@ export default function ContactPage() {
             subject: formData.get('subject'),
             message: formData.get('message'),
             createdAt: serverTimestamp(),
+            deletedAt: null,
         };
 
         try {

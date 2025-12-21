@@ -26,12 +26,14 @@ export default function AdminDashboard() {
 
     const fetchMessages = async () => {
         try {
-            const q = query(collection(db, "contacts"), where("deletedAt", "==", null), orderBy("createdAt", "desc"));
+            const q = query(collection(db, "contacts"), orderBy("createdAt", "desc"));
             const querySnapshot = await getDocs(q);
-            const data = querySnapshot.docs.map((doc) => ({
-                id: doc.id,
-                ...doc.data(),
-            })) as ContactMessage[];
+            const data = querySnapshot.docs
+                .map((doc) => ({
+                    id: doc.id,
+                    ...doc.data(),
+                }))
+                .filter((msg: any) => !msg.deletedAt) as ContactMessage[];
             setMessages(data);
         } catch (error) {
             console.error("Error fetching messages:", error);
