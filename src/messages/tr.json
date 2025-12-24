@@ -122,7 +122,7 @@
         "info": {
             "address": {
                 "title": "Merkez Ofis",
-                "value": "Kocaeli, Türkiye"
+                "value": "Şekerpınar Mh. Ayçiçek Sk. No:14, Çayırova, Kocaeli"
             },
             "phone": {
                 "title": "Telefon",
@@ -136,10 +136,18 @@
                 "title": "Çalışma Saatleri",
                 "value": "Pzt - Cmt: 09:00 - 18:00"
             }
-        }
+        },
+        "getDirections": "Yol Tarifi Al"
     },
     "NotFound": {
         "title": "Sayfa Bulunamadı",
         "description": "Aradığınız sayfayı bulamadık."
+    },
+    "Maintenance": {
+        "title": "Sitemiz Bakımdadır",
+        "description": "Sizlere daha iyi bir deneyim sunabilmek için websitemizi güncelliyoruz. Çok yakında yepyeni yüzümüzle tekrar yayında olacağız.",
+        "email": "E-Posta",
+        "phone": "Telefon",
+        "thanks": "Anlayışınız için teşekkür ederiz"
     }
 }

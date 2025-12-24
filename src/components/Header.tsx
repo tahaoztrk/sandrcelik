@@ -12,6 +12,8 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
 
+    if (pathname.includes('/maintenance')) return null;
+
     useEffect(() => {
         const handleScroll = () => {
             setScrolled(window.scrollY > 20);

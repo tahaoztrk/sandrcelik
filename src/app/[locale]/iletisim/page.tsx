@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Mail, MapPin, Phone, Send, Clock, CheckCircle } from "lucide-react";
+import { Mail, MapPin, Phone, Send, Clock, CheckCircle, Navigation } from "lucide-react";
 import { useState, FormEvent } from "react";
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "@/lib/firebase";
@@ -111,7 +111,7 @@ export default function ContactPage() {
                         {/* Map */}
                         <div className="w-full h-[300px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192697.8885060695!2d29.88151975!3d40.7656686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb4f66644bfb9d%3A0x82690ee7586b7eb9!2sKocaeli!5e0!3m2!1str!2str!4v1710927000000!5m2!1str!2str"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3018.1347290173535!2d29.3955418!3d40.8469657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad9d62d41e007%3A0x3d185a117c852c89!2zTkRTIFlhcMSxc2FsIMOHZWxpaw!5e0!3m2!1str!2str!4v1766409882361!5m2!1str!2str"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
@@ -120,6 +120,20 @@ export default function ContactPage() {
                                 referrerPolicy="no-referrer-when-downgrade"
                                 className="grayscale hover:grayscale-0 transition-all duration-700"
                             ></iframe>
+                        </div>
+                        <div className="flex justify-end mt-4">
+                            <a
+                                href="https://www.google.com/maps/dir/?api=1&destination=40.8469657,29.3955418"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="group flex items-center gap-3 bg-[#162660] text-white pl-4 pr-6 py-3 rounded-2xl text-[10px] md:text-xs font-black uppercase tracking-[0.2em] hover:bg-[#24388a] transition-all duration-500 hover:shadow-[0_10px_30px_rgba(22,38,96,0.3)] hover:-translate-y-1 active:scale-95 shadow-lg relative overflow-hidden"
+                            >
+                                <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/5 to-white/0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+                                <div className="p-2 bg-white/10 rounded-xl group-hover:bg-[#F59E0B]/20 transition-colors duration-500">
+                                    <Navigation size={14} className="text-[#F59E0B] group-hover:rotate-[15deg] transition-transform duration-500" />
+                                </div>
+                                <span className="relative z-10">{t('getDirections')}</span>
+                            </a>
                         </div>
 
                     </div>

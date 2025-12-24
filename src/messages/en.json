@@ -122,7 +122,7 @@
         "info": {
             "address": {
                 "title": "Headquarters",
-                "value": "Kocaeli, Turkey"
+                "value": "Şekerpınar Mh. Ayçiçek Sk. No:14, Çayırova, Kocaeli"
             },
             "phone": {
                 "title": "Phone",
@@ -136,10 +136,18 @@
                 "title": "Working Hours",
                 "value": "Mon - Sat: 09:00 - 18:00"
             }
-        }
+        },
+        "getDirections": "Get Directions"
     },
     "NotFound": {
         "title": "Page Not Found",
         "description": "We could not find the page you are looking for."
+    },
+    "Maintenance": {
+        "title": "Site is Under Maintenance",
+        "description": "We are updating our website to provide you with a better experience. We will be back soon with a brand new look.",
+        "email": "E-Mail",
+        "phone": "Phone",
+        "thanks": "Thank you for your understanding"
     }
 }
