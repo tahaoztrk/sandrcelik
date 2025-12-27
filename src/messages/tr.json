@@ -21,6 +21,27 @@
         "advancedEngineering": "İleri Mühendislik",
         "steelConstruction": "Çelik Konstrüksiyon"
     },
+    "ProjectsTeaser": {
+        "subtitle": "UZMANLIKLARIMIZ",
+        "title": "Geleceğin Yapılarını Çelikle Şekillendiriyoruz",
+        "description": "Sandr Çelik olarak, inovatif mühendislik çözümlerimizi her projede titizlikle uyguluyoruz. Çok yakında yayına girecek yeni portfolyomuzdaki öncü kategorilerimizi keşfedin.",
+        "project1": "Endüstriyel",
+        "project1Desc": "Ağır sanayi ve endüstriyel tesisler için yüksek mukavemetli çelik çözümler.",
+        "project2": "Konut",
+        "project2Desc": "Modern yaşamın gereksinimlerine uygun, güvenli ve estetik çelik konut projeleri.",
+        "project3": "Ticari",
+        "project3Desc": "İş dünyası için yenilikçi, hızlı inşa edilen ve fonksiyonel ticari alanlar.",
+        "viewAll": "Tüm Faaliyet Alanlarımızı Görün",
+        "discoverSoon": "Yakında Keşfedin"
+    },
+    "CorporateTeaser": {
+        "subtitle": "KURUMSAL",
+        "title": "Mühendislik Sanatı ve Çelik Gücü",
+        "description": "Sandr, sadece bir inşaat şirketi değil; geleceğin yaşam alanlarını ve endüstriyel tesislerini tasarlayan bir teknoloji ortağıdır. Estetik, dayanıklılık ve sürdürülebilirliği her projede bir araya getiriyoruz.",
+        "button": "Hikayemizi Keşfedin",
+        "stat1": "Yıllık Tecrübe",
+        "stat2": "Tamamlanan Proje"
+    },
     "Services": {
         "sectionTitle": "Uzmanlık Alanlarımız",
         "headingLine1": "Geleceği İnşa Eden",
@@ -93,12 +114,46 @@
         "moreInfo": "Detaylı Bilgi"
     },
     "CorporatePage": {
-        "title": "KURUMSAL",
-        "description": "Sayfa yapım aşamasındadır. Yakında şirket tarihçesi ve vizyonumuz burada yer alacaktır."
+        "hero": {
+            "title": "KURUMSAL",
+            "subtitle": "Kocaeli'den yükselen çelik gücü, geleceği inşa eden mühendislik vizyonu."
+        },
+        "about": {
+            "title": "HAKKIMIZDA",
+            "heading": "Çeliğe Şekil, Yapılara Hayat Veriyoruz.",
+            "description1": "SANDR Çelik olarak, kurulduğumuz günden bu yana çelik konstrüksiyon sektöründe güven ve kalitenin simgesi olmayı hedefledik.",
+            "description2": "Endüstriyel tesislerden modern yaşam alanlarına kadar geniş bir yelpazede hizmet sunarken, her projeye mühendislik hassasiyeti ve estetik kaygısıyla yaklaşıyoruz. Amacımız sadece bina inşa etmek değil, içinde yaşam ve üretim olan güvenli alanlar yaratmaktır.",
+            "description3": "Uzman ekibimiz ve modern teknolojimizle, uluslararası standartlarda sürdürülebilir projelere imza atmanın haklı gururunu yaşıyoruz."
+        },
+        "visionMission": {
+            "visionTitle": "VİZYONUMUZ",
+            "visionDesc": "Türkiye'nin çelik yapı sektöründeki standartlarını küresel seviyeye taşımak ve sürdürülebilir, yenilikçi yapılarla anılan bir marka olmak.",
+            "missionTitle": "MİSYONUMUZ",
+            "missionDesc": "Müşterilerimizin hayallerini mühendislik disipliniyle gerçeğe dönüştürürken, doğaya saygılı, ekonomik ve uzun ömürlü yapılar üretmek."
+        },
+        "values": {
+            "title": "DEĞERLERİMİZ",
+            "quality": "Mükemmeliyetçi Kalite",
+            "qualityDesc": "İşimizin her aşamasında en yüksek standartları hedefleriz.",
+            "safety": "Önce Güvenlik",
+            "safetyDesc": "Hem çalışanlarımızın hem de inşa ettiğimiz yapıların güvenliği önceliğimizdir.",
+            "innovation": "Sürekli İnovasyon",
+            "innovationDesc": "Sektöredeki teknolojik gelişmeleri takip eder, projelerimize entegre ederiz.",
+            "trust": "Şeffaflık ve Güven",
+            "trustDesc": "Müşterilerimizle açık iletişim kurar, söz verdiğimiz zamanda teslim ederiz."
+        },
+        "cta": {
+            "title": "Geleceği Birlikte İnşa Edelim",
+            "description": "Profesyonel çözümlerimiz ve mühendislik yaklaşımımızla projenize değer katmak için buradayız."
+        }
     },
     "ProjectsPage": {
         "title": "PROJELERİMİZ",
-        "description": "Sayfa yapım aşamasındadır. Tamamlanan seçkin referanslarımız çok yakında eklenecektir."
+        "description": "Sayfa yapım aşamasındadır. Tamamlanan seçkin referanslarımız çok yakında eklenecektir.",
+        "badge": "YAKINDA",
+        "heading": "Çok Yakında",
+        "subheading": "Sizlere en seçkin projelerimizi sunmak için hazırlanıyoruz.",
+        "backHome": "Ana Sayfaya Dön"
     },
     "ContactPage": {
         "title": "Bize Ulaşın",
@@ -138,6 +193,25 @@
             }
         },
         "getDirections": "Yol Tarifi Al"
+    },
+    "Footer": {
+        "tagline": "Geleceği Çelikle Şekillendiriyoruz.",
+        "description": "Yenilikçi mühendislik ve sürdürülebilir tasarım anlayışıyla, hayallerinizi sağlam temellere oturtuyoruz.",
+        "links": {
+            "corporate": "Kurumsal",
+            "expertise": "Uzmanlık Alanları",
+            "projects": "Projeler",
+            "contact": "İletişim",
+            "privacy": "Gizlilik Politikası",
+            "terms": "Kullanım Koşulları"
+        },
+        "newsletter": {
+            "title": "Bültenimize Abone Olun",
+            "placeholder": "E-posta adresiniz",
+            "button": "Abone Ol"
+        },
+        "rights": "Tüm hakları saklıdır.",
+        "devBy": "Geliştiren"
     },
     "NotFound": {
         "title": "Sayfa Bulunamadı",

@@ -118,7 +118,7 @@ export default function ContactPage() {
                                 allowFullScreen
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
-                                className="grayscale hover:grayscale-0 transition-all duration-700"
+                                className="w-full h-full border-0 transition-all duration-700"
                             ></iframe>
                         </div>
                         <div className="flex justify-end mt-4">
@@ -170,7 +170,7 @@ export default function ContactPage() {
                                                 required
                                                 type="text"
                                                 className="w-full bg-[#F3F4F6] border-none rounded-xl px-6 py-4 text-[#162660] font-medium placeholder-[#162660]/30 focus:ring-2 focus:ring-[#162660]/20 focus:bg-white transition-all duration-300"
-                                                placeholder="John Doe"
+                                                placeholder="Ahmet Yılmaz"
                                             />
                                         </div>
 
@@ -195,7 +195,7 @@ export default function ContactPage() {
                                                 required
                                                 type="email"
                                                 className="w-full bg-[#F3F4F6] border-none rounded-xl px-6 py-4 text-[#162660] font-medium placeholder-[#162660]/30 focus:ring-2 focus:ring-[#162660]/20 focus:bg-white transition-all duration-300"
-                                                placeholder="john@example.com"
+                                                placeholder="ahmet@gmail.com"
                                             />
                                         </div>
 

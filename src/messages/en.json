@@ -21,6 +21,27 @@
         "advancedEngineering": "Advanced Engineering",
         "steelConstruction": "Steel Construction"
     },
+    "ProjectsTeaser": {
+        "subtitle": "OUR EXPERTISE",
+        "title": "Shaping the Future with Steel Structures",
+        "description": "As Sandr Steel, we meticulously apply our innovative engineering solutions to every project. Discover our leading categories in our upcoming portfolio.",
+        "project1": "Industrial",
+        "project1Desc": "High-strength steel solutions for heavy industry and industrial facilities.",
+        "project2": "Residential",
+        "project2Desc": "Safe and aesthetic steel housing projects suitable for modern living needs.",
+        "project3": "Commercial",
+        "project3Desc": "Innovative, fast-built and functional commercial spaces for the business world.",
+        "viewAll": "See All Our Areas of Activity",
+        "discoverSoon": "Discover Soon"
+    },
+    "CorporateTeaser": {
+        "subtitle": "CORPORATE",
+        "title": "Art of Engineering and Power of Steel",
+        "description": "Sandr is not just a construction company; it is a technology partner designing the living spaces and industrial facilities of the future. We combine aesthetics, durability, and sustainability in every project.",
+        "button": "Discover Our Story",
+        "stat1": "Years Experience",
+        "stat2": "Completed Projects"
+    },
     "Services": {
         "sectionTitle": "Our Expertise",
         "headingLine1": "Building the Future",
@@ -93,12 +114,46 @@
         "moreInfo": "More Info"
     },
     "CorporatePage": {
-        "title": "CORPORATE",
-        "description": "Page is under construction. Company history and vision will be available here soon."
+        "hero": {
+            "title": "CORPORATE",
+            "subtitle": "The rising steel power from Kocaeli, the engineering vision building the future."
+        },
+        "about": {
+            "title": "ABOUT US",
+            "heading": "We Give Shape to Steel, Life to Structures.",
+            "description1": "As SANDR Steel, we have aimed to be the symbol of trust and quality in the steel construction sector since the day we were founded.",
+            "description2": "While providing services in a wide range from industrial facilities to modern living spaces, we approach every project with engineering precision and aesthetic concern. Our goal is not just to build buildings, but to create safe spaces with life and production inside.",
+            "description3": "With our expert team and modern technology, we are proud to sign sustainable projects at international standards."
+        },
+        "visionMission": {
+            "visionTitle": "OUR VISION",
+            "visionDesc": "To carry Turkey's standards in the steel structure sector to a global level and to be a brand known for sustainable, innovative structures.",
+            "missionTitle": "OUR MISSION",
+            "missionDesc": "To produce environmentally friendly, economical and long-lasting structures while turning our customers' dreams into reality with engineering discipline."
+        },
+        "values": {
+            "title": "OUR VALUES",
+            "quality": "Perfectionist Quality",
+            "qualityDesc": "We aim for the highest standards in every stage of our work.",
+            "safety": "Safety First",
+            "safetyDesc": "The safety of both our employees and the structures we build is our priority.",
+            "innovation": "Continuous Innovation",
+            "innovationDesc": "We follow technological developments in the sector and integrate them into our projects.",
+            "trust": "Transparency and Trust",
+            "trustDesc": "We establish open communication with our customers and deliver on time as promised."
+        },
+        "cta": {
+            "title": "Let's Build the Future Together",
+            "description": "We are here to add value to your project with our professional solutions and engineering approach."
+        }
     },
     "ProjectsPage": {
         "title": "OUR PROJECTS",
-        "description": "Page is under construction. Completed selected references will be added very soon."
+        "description": "Page is under construction. Completed selected references will be added very soon.",
+        "badge": "COMING SOON",
+        "heading": "Coming Soon",
+        "subheading": "We are getting ready to present our most exclusive projects to you.",
+        "backHome": "Back to Home"
     },
     "ContactPage": {
         "title": "Get in Touch",
@@ -138,6 +193,25 @@
             }
         },
         "getDirections": "Get Directions"
+    },
+    "Footer": {
+        "tagline": "Shaping the Future with Steel.",
+        "description": "With innovative engineering and sustainable design, we build your dreams on solid foundations.",
+        "links": {
+            "corporate": "Corporate",
+            "expertise": "Expertise",
+            "projects": "Projects",
+            "contact": "Contact",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Use"
+        },
+        "newsletter": {
+            "title": "Subscribe to Our Newsletter",
+            "placeholder": "Your email address",
+            "button": "Subscribe"
+        },
+        "rights": "All rights reserved.",
+        "devBy": "Developed by"
     },
     "NotFound": {
         "title": "Page Not Found",
