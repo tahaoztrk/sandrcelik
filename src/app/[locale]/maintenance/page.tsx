@@ -70,7 +70,7 @@ export default function MaintenancePage() {
                             </div>
                             <div className="text-left">
                                 <p className="text-xs text-white/40 font-bold uppercase tracking-wider">{t('phone')}</p>
-                                <p className="text-white font-bold">+90 (212) 671 20 20</p>
+                                <p className="text-white font-bold">+90 542 727 97 21</p>
                             </div>
                         </div>
                     </div>

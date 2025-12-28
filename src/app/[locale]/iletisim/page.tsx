@@ -181,7 +181,7 @@ export default function ContactPage() {
                                                 name="phone"
                                                 type="tel"
                                                 className="w-full bg-[#F3F4F6] border-none rounded-xl px-6 py-4 text-[#162660] font-medium placeholder-[#162660]/30 focus:ring-2 focus:ring-[#162660]/20 focus:bg-white transition-all duration-300"
-                                                placeholder="+90 555 000 0000"
+                                                placeholder="+90 542 727 97 21"
                                             />
                                         </div>
                                     </div>
